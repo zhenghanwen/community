@@ -44,6 +44,7 @@ public class GithubProvider {
         try {
             Response response = client.newCall(request).execute();
             String string = response.body().string();
+            System.out.println(string);
             //json对象解析成githubuser对象里
             GithubUser githubUser = JSON.parseObject(string, GithubUser.class);
             return githubUser;
