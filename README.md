@@ -102,3 +102,7 @@ mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
 - 2019-8-18 修复搜索输入 ? 号出现异常问题
 - 2019-8-22 修复图片大小限制和提问内容为空问题
 - 2019-9-1 添加动态导航栏
+
+##记录的问题
+1.在profile这个地方讲解的时候，样式没有加载出来，原因是样式目录不对，
+把css/bootstrap.min.css改成/css/bootstrap.min.css
