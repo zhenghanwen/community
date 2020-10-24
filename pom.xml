@@ -90,7 +90,7 @@
                 <configuration>
                     <url>jdbc:mysql://127.0.0.1:3306/community?characterEncoding=UTF-8&amp;useUnicode=true&amp;useSSL=false&amp;tinyInt1isBit=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=Asia/Shanghai</url>
                     <user>root</user>
-                    <password>!QAZ2wsx</password>
+                    <password>name1234</password>
                 </configuration>
                 <dependencies>
                     <dependency>
